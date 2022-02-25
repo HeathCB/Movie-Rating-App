@@ -1,0 +1,79 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin:.2rem;
+  background-color: rgb(37, 104, 104);
+  color:white;
+ }
+ 
+ a{
+   text-decoration: none;
+   color:white;
+ }
+ 
+ /* form styling */
+ 
+ .formStyle{
+   display:flex;
+   flex-direction: column;
+   justify-content: center;
+   align-content: center;
+ }
+ 
+ /* review created by reviewForm component */
+ .review{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-content: center;
+ }
+ 
+ /* reviewList component positioning within the main app component */
+ .reviewListStyle{
+   display: flex;
+   justify-content: center;
+   border:1px solid lightcyan;
+   color:black;
+   background:radial-gradient(rgb(241, 239, 239), rgb(87, 86, 85));
+   box-shadow:5px 5px 1px 2px ;
+   margin:1rem;
+   border-radius: 8px;
+   padding:.5rem;
+   width:fit-content;
+   max-width:70%;
+  
+ }
+ 
+ 
+ /* container for the reviewForm */
+ 
+ .reviewFormContainer{
+   display:flex;
+   padding:.5rem;
+  
+   
+ }
+ 
+ /* Movie List Component styling */
+ 
+ .movieList{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   
+ }
+ 
+ .movieItem{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+ }
+ .movieItem>img{
+  width:fit-content;
+  max-width: 40%;
+  border-radius: 8%;
+ }
